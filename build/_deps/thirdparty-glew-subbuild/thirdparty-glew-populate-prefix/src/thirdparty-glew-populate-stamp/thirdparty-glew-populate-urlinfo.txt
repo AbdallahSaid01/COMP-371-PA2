@@ -1,0 +1,3 @@
+repository='external project URL'
+module='D:/desktop/pa2/thirdparty/glew-2.1.0.zip'
+tag=''

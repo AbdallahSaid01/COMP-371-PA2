@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/FindOpenGL.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/FindPackageMessage.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/GNUInstallDirs.cmake
+D:/desktop/pa2/build/_deps/thirdparty-glew-src/build/cmake/CMakeLists.txt
+D:/desktop/pa2/build/_deps/thirdparty-glew-src/build/cmake/cmake_uninstall.cmake.in
+D:/desktop/pa2/build/_deps/thirdparty-glew-src/glew.pc.in

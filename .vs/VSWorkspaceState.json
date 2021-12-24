@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\shaders",
+    "\\build",
+    "\\build\\_deps",
+    "\\build\\_deps\\thirdparty-glew-src",
+    "\\build\\_deps\\thirdparty-glew-src\\include",
+    "\\build\\_deps\\thirdparty-glew-src\\include\\GL",
+    "\\src"
+  ],
+  "PreviewInSolutionExplorer": false
+}

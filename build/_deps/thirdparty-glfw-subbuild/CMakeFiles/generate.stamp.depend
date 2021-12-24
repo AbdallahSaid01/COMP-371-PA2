@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/ExternalProject-verify.cmake.in
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/ExternalProject.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/Platform/Windows.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake
+D:/desktop/cmake-3.22.1-windows-x86_64/share/cmake-3.22/Modules/RepositoryInfo.txt.in
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/3.22.1/CMakeSystem.cmake
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeLists.txt
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/tmp/thirdparty-glfw-populate-cfgcmd.txt.in

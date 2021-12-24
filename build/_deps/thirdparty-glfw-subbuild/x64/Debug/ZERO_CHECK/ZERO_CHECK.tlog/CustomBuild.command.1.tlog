@@ -1,0 +1,10 @@
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\B7DF0D8413BE33D73A12367FD1EADF5E\GENERATE.STAMP.RULE
+setlocal
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SD:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild -BD:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

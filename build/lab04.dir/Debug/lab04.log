@@ -1,0 +1,18 @@
+﻿  Building Custom Rule D:/desktop/pa2/CMakeLists.txt
+  pa2.cpp
+D:\desktop\pa2\include\shaderloader.h(25,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+D:\desktop\pa2\src\pa2.cpp(231,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\desktop\pa2\src\pa2.cpp(250,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\desktop\pa2\src\pa2.cpp(713,62): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\desktop\pa2\src\pa2.cpp(714,62): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\desktop\pa2\src\pa2.cpp(138,64): warning C4244: 'argument': conversion from 'T' to 'GLint', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\desktop\pa2\src\pa2.cpp(303): message : see reference to function template instantiation 'void SetUniform1Value<float>(GLuint,const char *,T)' being compiled
+          with
+          [
+              T=float
+          ]
+  lab04.vcxproj -> D:\desktop\pa2\build\Debug\lab04.exe

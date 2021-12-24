@@ -1,0 +1,150 @@
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-MKDIR.RULE
+setlocal
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\desktop\pa2\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -P D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/verify-thirdparty-glfw-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -P D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/extract-thirdparty-glfw-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-PATCH.RULE
+setlocal
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\desktop\pa2\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-BUILD.RULE
+setlocal
+cd D:\desktop\pa2\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd D:\desktop\pa2\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\101F5410C4E8B1B10C0316FC9C2A4268\THIRDPARTY-GLFW-POPULATE-TEST.RULE
+setlocal
+cd D:\desktop\pa2\build\_deps\thirdparty-glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\A3193AF19038571CA8AA8B27ED9EBD5D\THIRDPARTY-GLFW-POPULATE-COMPLETE.RULE
+setlocal
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E make_directory D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/Debug/thirdparty-glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -E touch D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/thirdparty-glfw-populate-prefix/src/thirdparty-glfw-populate-stamp/Debug/thirdparty-glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKEFILES\B7DF0D8413BE33D73A12367FD1EADF5E\THIRDPARTY-GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\DESKTOP\PA2\BUILD\_DEPS\THIRDPARTY-GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\desktop\cmake-3.22.1-windows-x86_64\bin\cmake.exe -SD:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild -BD:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild --check-stamp-file D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

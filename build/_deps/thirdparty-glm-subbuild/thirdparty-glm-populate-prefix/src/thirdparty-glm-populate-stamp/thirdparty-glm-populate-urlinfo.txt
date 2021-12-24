@@ -1,0 +1,3 @@
+repository='external project URL'
+module='D:/desktop/pa2/thirdparty/glm-0.9.9.8.zip'
+tag=''

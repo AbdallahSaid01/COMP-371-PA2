@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\16516bacc34cc1a85b1f078e078802c9\thirdparty-glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\c2a261d7f786c2291383df06065ec10c\thirdparty-glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\8ce232296cc458ed79720aeab1da576d\thirdparty-glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\desktop\pa2\build\_deps\thirdparty-glm-subbuild\CMakeFiles\thirdparty-glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0BECE757-3073-35BC-AC08-10207CBB1636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

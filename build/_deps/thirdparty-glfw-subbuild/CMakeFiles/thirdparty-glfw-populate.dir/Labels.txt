@@ -1,0 +1,13 @@
+# Target labels
+ thirdparty-glfw-populate
+# Source files and their labels
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/thirdparty-glfw-populate
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/b7df0d8413be33d73a12367fd1eadf5e/thirdparty-glfw-populate.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/a3193af19038571ca8aa8b27ed9ebd5d/thirdparty-glfw-populate-complete.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-build.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-configure.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-download.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-install.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-mkdir.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-patch.rule
+D:/desktop/pa2/build/_deps/thirdparty-glfw-subbuild/CMakeFiles/101f5410c4e8b1b10c0316fc9c2a4268/thirdparty-glfw-populate-test.rule

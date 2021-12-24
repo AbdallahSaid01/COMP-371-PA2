@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/thirdparty-glew-populate"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/6b0282ff227256099127237f115b960d/thirdparty-glew-populate.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/2349b9d189ba618c44e354e6a6255f92/thirdparty-glew-populate-complete.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-build.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-configure.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-download.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-install.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-patch.rule"
+		},
+		{
+			"file" : "D:/desktop/pa2/build/_deps/thirdparty-glew-subbuild/CMakeFiles/1581884bcc023dfcded30103ada5233c/thirdparty-glew-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"thirdparty-glew-populate"
+		],
+		"name" : "thirdparty-glew-populate"
+	}
+}
